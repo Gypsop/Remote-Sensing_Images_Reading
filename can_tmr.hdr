@@ -1,0 +1,19 @@
+ENVI
+description = {
+  Canon City, Colorado, Landsat TM, Calibrated to Reflectance }
+samples = 640
+lines   = 400
+bands   = 6
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+sensor type = Landsat TM
+wavelength units = Micrometers
+z plot range = {0.00, 100.00}
+z plot titles = {Wavelength, Reflectance}
+default stretch = 2.0% linear
+band names = {
+ TM Band 1, TM Band 2, TM Band 3, TM Band 4, TM Band 5, TM Band 7}
+wavelength = {
+ 0.48500, 0.56000, 0.66000, 0.83000, 1.65000, 2.21500}
